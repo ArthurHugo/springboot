@@ -1,0 +1,16 @@
+#注意:在yml文件中添加value值时,value前面需要加一个空格  
+server:
+  port: 8081
+  context-path: /demo #使用localhost:8081/girl/hello
+  
+#注意:在yml文件中添加value值时,value前面需要加一个空格  
+ip: 127.0.0.0   
+port: 8081
+
+devconfig:  
+  ip: 127.0.0.0  
+  port: 8080
+
+spring:  
+  profiles:  
+    active: produce
